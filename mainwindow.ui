@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1242</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>100</y>
+      <width>621</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>智慧物流管理系统</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>380</y>
+      <width>291</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>客户登陆</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>380</y>
+      <width>301</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>管理员登陆</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_3">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>380</y>
+      <width>311</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>客户注册</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

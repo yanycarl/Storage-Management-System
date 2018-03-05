@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowUI</class>
+ <widget class="QMainWindow" name="MainWindowUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1394</width>
+    <height>759</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>351</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>客户信息</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>60</y>
+      <width>721</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>智能物流库存管理系统</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>230</y>
+      <width>331</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>提交订单</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_3">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>230</y>
+      <width>341</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>查看历史订单</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>351</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>存入货物</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>460</y>
+      <width>331</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>查看货物库存</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_6">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>460</y>
+      <width>341</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>修改货物属性</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_7">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>460</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>统计信息与
+决策分析</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_8">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>230</y>
+      <width>331</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>凭据生成</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

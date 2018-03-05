@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StaticsUI</class>
+ <widget class="QMainWindow" name="StaticsUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1208</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>260</y>
+      <width>311</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>交易统计
+（交易额、交
+易量）</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>60</y>
+      <width>481</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>统计信息与决策分析</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>260</y>
+      <width>311</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>客户分析
+（客户地区分
+布、快递选择、
+商品喜好）</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="commandLinkButton_3">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>260</y>
+      <width>321</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>货物分析
+（数量、生产日
+期、生产商、退
+换政策）</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
